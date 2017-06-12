@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="com.example.prodromos.androidproject1.MainActivity">
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/pro"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:id="@+id/imageViewProdromos"
+        android:scaleType="centerCrop"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="AEM 2513"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:id="@+id/textViewAEM1"
+        android:textSize="24dp"
+        android:textColor="#76FF03"
+        android:layout_alignTop="@+id/imageViewProdromos"
+        android:layout_toRightOf="@+id/imageViewProdromos"
+        android:layout_toEndOf="@+id/imageViewProdromos" />
+
+    <TextView
+        android:text="Πρόδρομος Πολυχρονιάδης"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewName1"
+        android:textSize="24dp"
+        android:textColor="#76FF03"
+        android:layout_alignBottom="@+id/imageViewProdromos"
+        android:layout_alignLeft="@+id/textViewAEM1"
+        android:layout_alignStart="@+id/textViewAEM1" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/manos"
+        android:scaleType="centerCrop"
+        android:layout_below="@+id/imageViewProdromos"
+        android:layout_alignLeft="@+id/imageViewProdromos"
+        android:layout_alignStart="@+id/imageViewProdromos"
+        android:layout_marginTop="16dp"
+        android:id="@+id/imageViewManos" />
+
+    <TextView
+        android:text="AEM 2519"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:textColor="#76FF03"
+        android:layout_alignTop="@+id/imageViewManos"
+        android:layout_alignLeft="@+id/textViewName1"
+        android:layout_alignStart="@+id/textViewName1"
+        android:id="@+id/textViewAEM2" />
+
+    <TextView
+        android:text="Μάνος Γιονανίδης"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:textColor="#76FF03"
+        android:layout_alignBottom="@+id/imageViewManos"
+        android:layout_alignLeft="@+id/textViewAEM2"
+        android:layout_alignStart="@+id/textViewAEM2"
+        android:id="@+id/textViewName2" />
+</RelativeLayout>
