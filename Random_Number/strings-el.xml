@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Random Luck</string>
+    <string name="TryYourLuck">Δοκίμασε την τύχη σου</string>
+    <string name="attempts">Δοκιμές</string>
+    <string name="restart">Επανεκκίνηση</string>
+    <string name="lockanswer">   Κλείδωσε απάντηση   </string>
+    <string name="numberhint">Αριθμός</string>
+    <string name="sloganforluck">Το μόνο σίγουρο πράγμα για την τύχη είναι ότι θα αλλάξει</string>
+    <string name="congratulations">Συγχαρητήρια, κέρδισες!</string>
+    <string name="biggernumber">Ο αριθμός σου είναι μεγαλύτερος από τον κρυφό αριθμό!</string>
+    <string name="smallernumber">Ο αριθμός σου είναι μικρότερος από τον κρυφό αριθμό!</string>
+    <string name="oneattempt">Έχεις άλλη μία ευκαρία!</string>
+    <string name="youlost">Έχασες. Ο κρυφός αριθμός βρίσκεται στην οθόνη σου. Προσπάθησε ξανά!</string>
+    <string name="validnumbers">Οι επιτρεπτοί αριθμοί είναι μεταξύ του 1 και του 100</string>
+    <string name="notanumber">Δεν εισάγατε αριθμό.</string>
+</resources>

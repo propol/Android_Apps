@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Random Luck</string>
+    <string name="TryYourLuck">Try your luck</string>
+    <string name="attempts">Attempts</string>
+    <string name="restart">RESTART</string>
+    <string name="lockanswer">   LOCK ANSWER   </string>
+    <string name="numberhint">Number</string>
+    <string name="sloganforluck">The only sure thing about luck is that it will change</string>
+    <string name="congratulations">Congratulations, you won!</string>
+    <string name="biggernumber">Your number is bigger than the secret number!</string>
+    <string name="smallernumber">Your number is smaller than the secret number!</string>
+    <string name="oneattempt">May the Force be with you, one attempt left!</string>
+    <string name="youlost">You lost. The secret number is on your screen. Try again!</string>
+    <string name="validnumbers">Valid values are between 1-100.</string>
+    <string name="notanumber">You did not insert a number.</string>
+</resources>
