@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">VRMKLS_Movies</string>
+    <string name="title">Title</string>
+    <string name="releasedate">Release Date</string>
+    <string name="rating">Rating (0-10)</string>
+    <string name="save">Save</string>
+    <string name="exit">Exit</string>
+    <string name="delete">Delete Movie</string>
+    <string name="update">Update List</string>
+    <string name="yourlist">Your List</string>
+    <string name="addmovie">Add Movie</string>
+    <string name="deletemessage">Are you sure you want to delete this movie?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="failedinsert">A movie with this title and release date already exists.</string>
+    <string name="emptytitle">The title is empty.</string>
+    <string name="emptydate">The release date is empty.</string>
+    <string name="invalidrating">The rating is not valid.</string>
+</resources>

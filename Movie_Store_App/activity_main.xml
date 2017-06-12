@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.prodromos.vrmkls_movies.MainActivity">
+
+    <Button
+        android:text="@string/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Exit"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="23dp"
+        android:id="@+id/exit" />
+
+    <Button
+        android:text="@string/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:onClick="UpdateList"
+        android:id="@+id/update"
+        android:layout_below="@+id/button"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button"
+        android:layout_alignRight="@+id/button"
+        android:layout_alignEnd="@+id/button" />
+
+    <Button
+        android:text="@string/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/deletemovie"
+        android:layout_marginTop="40dp"
+        android:onClick="DeleteMovie"
+        android:layout_below="@+id/update"
+        android:layout_alignLeft="@+id/update"
+        android:layout_alignStart="@+id/update"
+        android:layout_alignRight="@+id/update"
+        android:layout_alignEnd="@+id/update" />
+
+    <Button
+        android:text="@string/yourlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/list"
+        android:layout_below="@+id/deletemovie"
+        android:layout_alignLeft="@+id/deletemovie"
+        android:layout_alignStart="@+id/deletemovie"
+        android:layout_marginTop="40dp"
+        android:onClick="showList"
+        android:layout_alignRight="@+id/deletemovie"
+        android:layout_alignEnd="@+id/deletemovie" />
+
+    <Button
+        android:text="@string/addmovie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:id="@+id/button"
+        android:onClick="add"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
+</ScrollView>

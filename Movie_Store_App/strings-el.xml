@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VRMKLS_Movies</string>
+    <string name="title">Τίτλος</string>
+    <string name="releasedate">Ημερομηνία Κυκλοφορίας</string>
+    <string name="rating">Βαθμολογία (0-10)</string>
+    <string name="save">Αποθήκευση</string>
+    <string name="exit">Έξοδος</string>
+    <string name="delete">Διαγραφή Ταινίας</string>
+    <string name="update">Ενημέρωση Λίστας</string>
+    <string name="yourlist">Η Λίστα σου</string>
+    <string name="addmovie">Προσθήκη Ταινίας</string>
+    <string name="deletemessage">Είστε σίγουρος ότι θέλετε να διαγράψετε αυτή την ταινία;</string>
+    <string name="yes">Ναι</string>
+    <string name="no">Όχι</string>
+    <string name="failedinsert">Η ταινία με το δοσμένο τίτλο και ημερομηνία κυκλοφορίας υπάρχει ήδη.</string>
+    <string name="emptytitle">Ο τίτλος είναι κενός.</string>
+    <string name="emptydate">Η ημερομηνία είναι κενή.</string>
+    <string name="invalidrating">Η βαθμολογία δεν είναι έγκυρη.</string>
+</resources>
